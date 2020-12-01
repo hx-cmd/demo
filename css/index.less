@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #efeff5;
+}
+.hx_box{
+  background: white;
+  margin: 15px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hx_box_icon_wrapper{
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background: linear-gradient(#6b9feb,#457ada);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 7px 35px fade(#5893fd,60%);
+  .hx_box_icon{
+    text-align: center;
+  }
+  &:active{
+    box-shadow: none;
+  }
+  i{
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  p{
+    font-size: 26px;
+  }
+}
